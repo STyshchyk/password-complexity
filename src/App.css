@@ -17,18 +17,31 @@
 }
 .box-complexity .easy {
   height: 5px;
-  background-color: red;
   flex: 1 1 33%;
 }
 .box-complexity .mid {
   height: 5px;
-  background-color: yellow;
   flex: 1 1 33%;
 }
 .box-complexity .hard {
   height: 5px;
-  background-color: green;
   flex: 1 1 33%;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.gray {
+  background-color: gray;
 }
 
 /*# sourceMappingURL=App.css.map */
