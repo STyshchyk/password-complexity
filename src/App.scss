@@ -1,0 +1,36 @@
+.App {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@mixin common($color) {
+  height: 5px;
+  background-color: $color;
+  flex: 1 1 33%;
+}
+
+.box-complexity {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  margin-top: 30px;
+  flex-direction: row;
+  gap: 10px;
+
+  .easy {
+    @include common(red)
+  }
+
+  .mid {
+    @include common(yellow)
+  }
+
+  .hard {
+    @include common(green)
+  }
+
+}
